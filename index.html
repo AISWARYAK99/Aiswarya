@@ -1,0 +1,391 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Aiswarya K</title>
+	<link rel="icon"href="aiswarya.jpg"type="images"sizes="16x16">
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Creative Profile Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+	
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css"><!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /><!-- Style-CSS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css"><!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+	
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<!-- //Web-Fonts -->
+	
+</head>
+<body>
+
+<div class="wrap" id="home">
+	<!-- header -->
+	<header>
+		<div class="container">
+			<div class="header d-lg-flex">
+				<div class="nav_w3ls mt-lg-3">
+					<nav>
+						<label for="drop" class="toggle mt-lg-0 mt-sm-1"><span class="fa fa-bars" aria-hidden="true"></span></label>
+						<input type="checkbox" id="drop" />
+							<ul class="menu">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li class=""><a href="#about">About </a></li>
+								<li class=""><a href="#services">Aspiring Fields </a></li>
+								<li class="">
+								<!-- First Tier Drop Down -->
+								<label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+								<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+								<input type="checkbox" id="drop-2"/>
+								<ul class="inner-dropdown">
+									<li><a href="#skills">My Skills</a></li>
+									<li class=""><a href="#edu-exp">Education and certifications</a></li>
+								</ul>
+								</li>
+								
+								
+							</ul>
+					</nav>
+				</div>
+			
+			</div>
+		</div>
+	</header>
+	<!-- //header -->
+	
+	<!-- logo -->
+	<div class="container my-lg-4 mb-4">
+		<div class="logo text-center">
+			
+			<h1><a href="index.html"><span class="fa fa-diamond" ></span>AISWARYA K</a></h1>
+		</div>
+	</div>
+	<!-- //logo -->
+	
+	<!-- container -->
+	<div class="container">
+		<!-- main -->
+		<div class="main">
+			
+			<!-- banner -->
+			<section class="banner">
+				<div class="col-md-12">
+					<div class="banner-info">
+						 <h2 class="heading-banner text-capitalize">Welcome to my <span>Personal Website
+
+						 </span></h2>
+						<p class=" mt-3">Dreams are like Ocean, <span>though we knew that it's hard to cross it, </span>We should try hard to reach out there with an abundant self-confidence
+						and perseverance.<br>"Life is like a journey with lots of grooves and ridges<br> --realisation of this factor is the greatest victory in life."</p>
+						<a href="#about" class="banner-button btn mt-md-5 mt-3 scroll">Read More</a>
+					</div>
+				</div>
+			</section>
+			<!-- //banner -->
+			
+			<!-- about us -->
+			<section class="banner-bottom" id="about">
+					<div class="inner-sec">
+						<div class="row middle-grids">
+							<div class="col-lg-7 advantage-grid-info">
+								<div class="advantage_left">
+									<h2 class="heading text-capitalize mb-4">About Me</h2>
+									<h4>I'm a engineering student. </h4>
+									<p class="mb-4">A growing computer engineer who likes to study the vast area of computer science . Always used to study,research new fields of computer science.Have a strong goal of working in a good IT company and is working towards it. Currently studying at Jyothi Engineering College. </p>
+									
+									<a href="https://www.linkedin.com/in/aiswarya-k-941a491a4/" class="banner-button2 btn">Hire Me</a>
+								</div>
+							</div>
+							<div class="col-lg-5 advantage-grid-info1">
+								<div class="advantage_left1 mt-lg-0 mt-4">
+									<img src="images/about.jpg" class="img-fluid" alt="">
+								</div>
+							</div> 
+						</div>
+					</div>
+			</section>
+			<!-- //about us -->
+			
+			<!-- services -->
+			<section class="services" id="services">
+				<div class="inner-sec-layer">
+					<h3 class="heading text-capitalize mb-md-5 mb-4">Aspiring Fields</h3>
+					<div class="row middle-grids">
+						<div class="col-lg-4 col-md-6 service-in text-center">
+							<div class="card">
+								<div class="card-body"style="height:350px;">
+									<span class="fa fa-desktop mb-4"></span>
+									<h5 class="card-title text-uppercase">Programming</h5>
+									<p class="card-text">The purpose of programming is to find a sequence of instructions that will automate the performance of a task which can be as complex as an operating system on a computer, often for solving a given problem.</p>
+								</div>
+							</div>
+						</div>
+						 <div class="col-lg-4 col-md-6 service-in text-center mt-md-0 mt-4">
+							<div class="card">
+								<div class="card-body"style="height:350px;">
+									<span class="fa fa-pencil-square-o mb-4"></span>
+									<h5 class="card-title text-uppercase">Content Writing</h5>
+									<p class="card-text">Content writing includes the process of planning, writing and editing web content, typically for digital marketing purposes. It can include writing blog posts and articles as well as  the for specific platforms.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 service-in text-center mt-lg-0 mt-4">
+							<div class="card">
+								<div class="card-body" style="height:350px;">
+									<span class="fa fa-window-restore mb-4"></span>
+									<h5 class="card-title text-uppercase">Web Designing</h5>
+									<p class="card-text">Web design encompasses many different skills and disciplines in the production and maintenance of websites which constitutes a vast area.</p>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</section>
+			<!-- //services -->
+			
+			<!-- skills -->
+			<section class="skills" id="skills">
+				<div class="inner-sec">
+					<h3 class="heading text-capitalize mb-md-5 mb-4">My Skills </h3>
+					<div class="row middle-grids">
+						<div class="col-lg-6">
+							<div class="skills-left">
+								<p class="card-text mb-4">Skills are my strengths which drives me to rech my goal and makes me to research more on it.</p>
+								<h5>C programming language </h5>
+								<p class="mb-4 bg clr-ninghty"></p>
+								<h5>Python programming language</h5>
+								<p class="mb-4 bg clr-eighty-five"></p>
+								<h5>Web Designing</h5>
+								<p class="mb-4 bg clr-seventy"></p>
+								<h5>Git</h5>
+								<p class="mb-4 bg clr-ninghty"></p>
+								<h5>HTML5</h5>
+								<p class="mb-4 bg clr-eighty-five"></p>
+								<h5>English proficency</h5>
+								<p class="mb-4 bg clr-seventy"></p>
+							</div>
+						</div>
+						<div class="col-lg-6 mt-lg-0 mt-4">
+							<div class="row text-center">
+								<div class="col-lg-4 col-sm-4 col-6 count-num-txt mb-4">
+								  <div class="number-w3three-info icon1">
+									<span class="fa fa-briefcase mb-sm-4 mb-2"></span>
+									
+									
+								  </div>
+								</div>
+								<div class="col-lg-4 col-sm-4 col-6 count-num-txt mb-4">
+								  <div class="number-w3three-info icon2">
+									<span class="fa fa-clone mb-sm-4 mb-2"></span>
+									
+								  </div>
+								</div>
+								<div class="col-lg-4 col-sm-4 col-6 count-num-txt mb-4">
+								  <div class="number-w3three-info icon3">
+									<span class="fa fa-trophy mb-sm-4 mb-2"></span>
+									
+								  </div>
+								</div>
+							</div>
+							<h3 class="">Every skills are like bricks which when built together forms an entire building..</h3>
+					  </div>
+						
+						
+					</div>
+				</div>
+			</section>
+			<!-- //skills -->
+			
+			<!-- Projects -->
+			
+			<!-- //Projects -->
+
+			<!-- tabs -->
+			<section class="edu-exp" id="edu-exp">
+				<div class="inner-sec">
+					<h3 class="heading text-capitalize mb-md-5 mb-4">Education And certifications</h3>
+					<div class="edu-exp-grids">
+						<div class="tab-main text-center">
+							<input id="tab1" type="radio" name="tabs" class="w3pvt-sm" checked>
+							<label for="tab1"><span class="fa fa-graduation-cap" aria-hidden="true"></span>Education</label>
+							<input id="tab2" type="radio" class="w3pvt-sm" name="tabs">
+							<label for="tab2"><span class="fa fa-briefcase" aria-hidden="true"></span>certificates</label>
+							<section id="content1">
+								<div class="row text-left">
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Higher Secondary</h4>
+										<h6>LSNGHSS OTTAPALAM,PALAKKAD</h6>
+										<p>Degree Name : XII Higher Secondary<br>Field Of Study : Biology Science<br>Grade : 98.03%<br>
+											Dates attended or expected graduation : 2017 – 2019.</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Secondary</h4>
+										<h6>AMRITA VIDYALAYAM,OTTAPALAM,PALAKKAD</h6>
+										<p>Degree Name : X Secondary <br>Field Of Study : 10th<br>Grade : 10.0 cgpa<br>
+											Dates attended or expected graduation : 2016 – 2017.</p>
+									</div>
+								</div>
+								<div class="row text-left">
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Graduation</h4>
+										<h6>JYOTHI ENGINEERING COLLEGE,THRISSUR
+											</h6>
+										<p>Degree Name : Bachelor of Technology - BTech <br>Field Of Study : Computer Science<br>
+											Grade : Ongoing <br>Dates attended or expected graduation : 2019 – 2023.</p>
+									</div>
+									
+								</div>
+							</section>
+							<section id="content2">
+								<div class="row text-left">
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Cybersecurity</h4>
+										<h6>IBM</h6>
+										<p>IBM certfied introduction to cybersecurity tools and cyber attacks
+											Issuing authority :IBM Tealeaf<br>
+											
+											Issued date : Jul 2020<br> Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Git and Github</h4>
+										<h6>Google</h6>
+										<p>Introduction to git and git hub<br>
+											Issuing authority : Google<br>											
+											Issued date : Jul 2020<br>Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>C programming</h4>
+										<h6>NPTEL</h6>
+										<p>NPTEL certified problem solving through programming in C<br>
+											Issuing authority : NPTEL<br>
+											
+											Issued date :  Jul 2020<br> Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Google Sheets</h4>
+										<h6>Google Cloud</h6>
+										<p>Getting started with Google sheets<br>
+											Issuing authority : Google Cloud Platform Certified<br>
+											
+											Issued date : May 2020<br> Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Web Development</h4>
+										<h6>University of California</h6>
+										<p>Introduction to web development<br>
+											Issuing authority : University of California, Davis<br>
+											
+											Issued date : May 2020<br> Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>HTML5</h4>
+										<h6>University Of Michigan</h6>
+										<p>Introduction to HTML5<br>
+											Issuing authority : University of Michigan<br>
+											
+											Issued date :  May 2020<br>Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>IT Security</h4>
+										<h6>Google</h6>
+										<p>IT Security: Defence against the digital dark arts<br>
+											Issuing authority : Google<br>
+											
+											Issued date : May 2020<br> Expiration date of the certification :No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>Machine Learning</h4>
+										<h6>Goldsmiths University of London</h6>
+										<p>Machine learning for all<br>
+											Issuing authority : Goldsmiths, University of London<br>
+											
+											Issued date : May2020<br>Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>C programming</h4>
+										<h6>University of California</h6>
+										<p>C for everyone: programming fundamentals<br>
+											Issuing authority : University of California,Santa Cruz-Jack Baskin School of Engineering<br>
+											
+											Issued date : May 2020<br>Expiration date of the certification : No Expiration Date</p>
+									</div>
+									<div class="col-lg-6 inner-w3pvt-wrap">
+										<h4>IT Security</h4>
+										<h6>Google</h6>
+										<p>Technical support fundamentals<br>
+											Issuing authority : Google<br>
+											
+											Issued date : May2020<br>Expiration date of the certification : No Expiration Date</p>
+									</div>
+
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- tabs -->
+		</div>
+		<!-- //main -->
+		
+		<!-- contact -->
+		<section class="contact" id="contact">
+			<div class="inner-sec">
+				
+				
+			</div>
+				</section>
+		<!-- contact -->
+	</div>
+	<!-- //container -->
+	
+	<!-- footer -->
+	<div class="container">
+	<footer class="footer-emp-w3ls">
+		
+		<div class="copy-right-top border-top">
+			<p class="copy-right text-center text-white py-4">&copy; 2019 Creative Profile. All Rights Reserved | 
+				
+			</p>
+		</div>
+		<div class="social mt-lg-3 mt-1 ml-auto">
+			<ul>
+				<li class="mr-sm-3 mr-2 icons"><a href="https://www.facebook.com"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+				<li class="mr-sm-3 mr-2 icons"><a href="https://www.instagram.com"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+				<i class= "mr-sm-3 mr-2 icons"><a href="https://www.linkedin.com/in/aiswarya-k-941a491a4/"><span class="fa fa-linkedin" aria-hidden="true"style="color:white" ></span></a></i>
+				
+			</ul>
+		</div>
+	</footer>
+	</div>
+	<!-- //footer -->
+	
+	<!-- move top -->
+	<div class="move-top text-right">
+		<a href="#home" class="move-top"> 
+			<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+		</a>
+	</div>
+	<!-- move top -->
+
+</div>	
+
+</body>
+</html>
