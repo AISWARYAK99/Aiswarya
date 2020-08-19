@@ -33,6 +33,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- Web-Fonts -->
 	<link href="//fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	<!-- //Web-Fonts -->
+	<!--//ajax added-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--//Ajax-->
 	
 </head>
 <body>
@@ -60,6 +63,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<li class=""><a href="#edu-exp">Education and certifications</a></li>
 								</ul>
 								</li>
+								<li class=""><a href="#contact">Contact Me</a></li>
 								
 								
 							</ul>
@@ -344,15 +348,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- tabs -->
 		</div>
 		<!-- //main -->
-		
 		<!-- contact -->
 		<section class="contact" id="contact">
 			<div class="inner-sec">
-				
-				
+				<h3 class="heading text-capitalize mb-4">Get In Touch</h3>
+				<form  id="submit-form" name="contact-form" class="contact-form"  action="">
+					<div class="row">
+						<div class="col-md-6 con-gd">
+							<div class="form-group">
+								<p>Name</p>
+								<input type="text" class="form-control" id="name" placeholder="Enter Your Name" name="name" required="">
+							</div>
+							<div class="form-group">
+								<p>Email</p>
+								<input type="email" class="form-control" id="email" placeholder="Enter Your Email Id" name="email" required="">
+							</div>
+
+						</div>
+						<div class="col-md-6 con-gd">
+							<div class="form-group">
+								<p>Send a Message </p>
+								<textarea name="Message" class="form-control" placeholder="Enter Your Message" required=""></textarea>
+							</div>
+
+						</div>
+					</div>
+					<div class="form-group mb-0">
+						<button type="submit" class="btn btn-default">Submit</button>
+					</div>
+				</form>
 			</div>
-				</section>
+		</section>
+					
+
+						
+					
+				
 		<!-- contact -->
+		
 	</div>
 	<!-- //container -->
 	
@@ -386,6 +419,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- move top -->
 
 </div>	
+<script>
+	$("#submit-form").submit((e)=>{
+		e.preventDefault()
+		$.ajax({
+			url:"https://script.google.com/macros/s/AKfycbyjNVllsKS5bFJbnCvuWG9dq5ogX2fcv7-_nZaR/exec",
+			data:$("#submit-form").serialize(),
+			method:"post",
+			success:function (response){
+				alert("Form submitted successfully")
+				window.location.reload()
+				//window.location.href="https://google.com"
+			},
+			error:function (err){
+				alert("Something Error")
+
+			}
+		})
+	})
+</script>
 
 </body>
 </html>
